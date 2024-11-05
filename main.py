@@ -47,8 +47,8 @@ def load_images_from_csv(csv_file, train_folder, image_size=(64, 64)):
     return images, labels
 
 # Example usage:
-train_folder = r"C:\Users\joysh\task3\train\train"
-csv_file = r"C:\Users\joysh\task3\sampleSubmission.csv"
+train_folder = r"C:\Users\namik\SCT_3\train\train"
+csv_file = r"C:\Users\namik\SCT_3\sampleSubmission.csv"
 
 try:
     train_images, train_labels = load_images_from_csv(csv_file, train_folder)
@@ -152,7 +152,7 @@ def load_images_in_batches(base_path, batch_size=1000):
 
 if __name__ == "__main__":
     # Path to images directory
-    base_path = "C:\\Users\\joysh\\task3\\train\\train"
+    base_path = "C:\\Users\\namik\\SCT_3\\train\\train"
 
     # Load images and labels
     logging.info("Starting to load images...")
